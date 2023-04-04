@@ -1,0 +1,14 @@
+<div class="home">
+  <table>
+    <tr>
+      <th>Search Term</th>
+      <th>Search Results</th>
+    </tr>
+    <tr *ngFor="let item of searchTermArray;let i = index">
+      <td>{{item}}</td>
+      <td><div *ngIf="checkData(searchHistoryArray[i]); else notFound"><app-profile [user]="searchHistoryArray[i]"></app-profile></div>
+        <ng-template #notFound>Search result not found</ng-template>
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,15 @@
+<div class="home">
+  <div class="block">
+    <h3> Search Github Users</h3>
+    <input class="block" type="text" [(ngModel)]="searchQuery" placeholder="Search GitHub users...">
+    <button class="submit-btn" (click)="search()">Search</button>
+  </div>
+
+  <div *ngIf="profile.length > 0">
+    <h3>Search Results</h3>
+    <div class="list-user" *ngFor="let user of profile">
+      <app-profile [user]="user"></app-profile>
+    </div>
+  </div>
+
+</div>

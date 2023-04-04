@@ -1,0 +1,28 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #efefef;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.home{
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+}
+
+table {
+  width: 650px;
+}
+.block{
+  display: block;
+  width: 550px;
+}

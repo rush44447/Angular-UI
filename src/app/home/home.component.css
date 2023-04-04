@@ -1,0 +1,39 @@
+.home{
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+}
+
+h3 {
+  margin-left: 18px;
+}
+.submit-btn{
+  background-color: #21f321;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+.block{
+  display: block;
+  width: 350px;
+}
+
+.list-user{
+  position: relative;
+  top: 50px;
+  margin-top: 10px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
